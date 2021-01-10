@@ -1,0 +1,281 @@
+body{
+	width: 320px;
+	color: #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	font-size: 12px;
+	background-image: url(image/starImage.jpg);
+	background-size: cover;
+}
+
+p{
+	font-size: 12px;
+}
+
+a{
+	text-decoration: none;
+	color: #FCFCF2;
+	margin: 2em;
+	font-size: 12px;
+}
+a:hover{
+	color: #DEB68E;
+}
+
+nav{
+	background-color: #7595BF;
+	width: 320px;
+	padding: 8px 0px 8px 0px;
+	text-align: center; 
+	margin: auto;
+}
+
+header{
+	margin: auto;
+	width: 320px;
+	overflow: hidden;
+}
+
+h4{
+	font-size: 9px;
+	color: #999999;
+}
+
+h5{
+	font-size: 9px;
+}
+
+h4::before{
+	content: '';
+  	display: inline-block;
+ 	width: 9px;
+  	height: 9px;
+  	margin-right: 2px;
+  	background-image: url(image/phoneIcon.svg);
+  	background-size: contain;
+ 	vertical-align: middle;
+}
+
+.logo{
+	margin: 0px 0px;
+	padding: 5px 0px 0px 10px;
+	width: 80px;
+	height: auto;
+}
+
+.companyName{
+	float: left;
+}
+
+.headerPnoneNumber{
+	float: right;
+	padding: 11px 5px 0px 0px;
+	text-align: right;
+	line-height: 0.1em;
+}
+
+.news{
+	width: 320px;
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+	overflow: hidden;
+	top: 0px;
+	bottom: 0px;
+}
+.newsDate{
+	float: left;
+	text-align: center;
+	margin: auto;
+	background-color: #7595BF;
+	padding: 5px 20px;
+	color: #FCFCF2;
+	width: 40px;
+}
+.newsContents{
+	float: right;
+	text-align: left;
+	margin: auto;
+	background-color: #F2F2F2;
+	padding: 5px 20px;
+	width: 200px;
+}
+
+.container{
+	width: 300px;
+	background-color: #ffffff;
+	text-align: left;
+	margin: auto;
+	padding: 20px 10px;
+}
+
+.cremation{
+	margin: 0px 0px 6px 0px;
+	float: left;
+}
+
+.outsideBuilding{
+	margin: 0px 0px 6px 0px;
+	float: left;
+}
+section{
+	padding: 10px 0px 5px 0px;
+}
+
+footer{
+	background-color: #7595BF;
+	width: 320px;
+	padding-bottom: 20px;
+	color: #FCFCF2;
+	bottom: 0;
+}
+
+.footerContainer{
+	width: 290px;
+	text-align: center;
+	margin: auto;
+	padding: 10px 0px;
+	overflow: hidden;
+}
+
+.footerMenu{
+	float: left;
+	text-align: left;
+	line-height: 2em;
+}
+.footerLink{
+	color: #FCFCF2;
+	margin-left: 0px;
+	width: 145px;
+}
+
+.footerContactInfo{
+	float: right;
+	text-align: left;
+	width: 145px;
+	line-height: 0.1em;
+}
+
+.outsideLinks{
+	float: right;
+	text-align: left;
+	width: 290px;
+	margin: 20px 0px;
+}
+
+.footerTell::before{
+	content: '';
+  	display: inline-block;
+ 	width: 9px;
+  	height: 9px;
+  	margin-right: 2px;
+  	background-image: url(image/phoneIcon.svg);
+  	background-size: contain;
+ 	vertical-align: middle;
+}
+.footerAddress{
+	line-height: 1.2em;
+}
+.footerAddress::before{
+	content: '';
+  	display: inline-block;
+ 	width: 9px;
+  	height: 9px;
+  	margin-right: 2px;
+  	background-image: url(image/houseIcon.svg);
+  	background-size: contain;
+ 	vertical-align: middle;
+}
+.footerHour::before{
+	content: '';
+  	display: inline-block;
+ 	width: 9px;
+  	height: 9px;
+  	margin-right: 2px;
+  	background-image: url(image/timeIcon.svg);
+  	background-size: contain;
+ 	vertical-align: middle;
+}
+.associationLink{
+	line-height: 1.2em;
+}
+h6{
+	text-align: center;
+	margin: auto;
+	font-weight: lighter;
+	padding: 20px 0px;
+}
+iframe{
+	padding: 20px 0px;
+}
+
+table {
+	width: 290px;
+	text-align: center;
+	margin: 0px auto 20px auto;
+	border-collapse: collapse;
+	border: solid 1px #ffffff;
+}
+
+table th{
+	border: dotted 1px #DEB68E;
+	text-align: center;
+	background-color: #8FC4D9;
+	color: #ffffff;
+	padding: 0.2em;
+}
+
+table td {
+	border: dotted 1px #DEB68E;
+	text-align: center;
+	padding: 0.5em;
+}
+
+label{
+	margin: 10px 10px 0px 0px;
+}
+
+input[type=text], input[type=email]{
+	border-radius: 3px;
+	border: solid 0.5px #999999;
+	margin: 5px 0px;
+	padding: 4px;
+	vertical-align: -0.2em;
+}
+
+textarea{
+	border-radius: 3px;
+	border: solid 0.5px #999999;
+	margin: 5px 0px;
+	padding: 4px;
+	vertical-align: 1em;
+}
+
+input[type=radio]{
+	vertical-align: -0.2em;
+}
+
+input[type=submit]{
+	border-radius: 4px;
+	padding: 5px 20px;
+	border: none;
+	background-color: #8FC4D9;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+input[type=submit]:hover{
+	background-color: #DEB68E;
+	color: #ffffff;
+}
+
+.submit{
+	text-align: center;
+	margin: auto;
+}
+
+form{
+	padding: 0px 10px;
+}

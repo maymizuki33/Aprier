@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Aprier</title>
+		<meta name="description" content="Pet sematary plans and costs.">
+		<link rel="icon" href="image/favicon.png">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<style type="text/css"></style>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="companyName">
+				<img class="logo" src="image/logo.svg" alt="company logo">
+			</div>
+			<div class="headerPnoneNumber">
+				<h4>0573-78-1102</h4>
+				<h5>business hours. 9:00am - 6:00pm </h5>				
+			</div>
+		</header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="plans.html">Plans</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+
+		<div class="container">
+			<table>
+			  <tr>
+			    <th></th><th>group cremation</th><th>simple cremation (personal)</th><th>presence cremation (personal)</th>
+			  </tr>
+			  <tr>
+			    <td>small animals</td><td>$70</td><td>$140</td><td>$180</td>
+			  </tr>
+			  <tr>
+			    <td>1~5kg</td><td>$120</td><td>$220</td><td>$260</td>
+			  </tr>
+			  <tr>
+			    <td>~10kg</td><td>$150</td><td>$250</td><td>$290</td>
+			  </tr>
+			  <tr>
+			    <td>~15kg</td><td>$180</td><td>$280</td><td>$320</td>
+			  </tr>
+			  <tr>
+			    <td>~25kg</td><td>$220</td><td>$300</td><td>$350</td>
+			  </tr>
+			  <tr>
+			    <td>~35kg</td><td>-</td><td>$350</td><td>$400</td>
+			  </tr>
+			  <tr>
+			    <td>~45kg</td><td>-</td><td>$400</td><td>$450</td>
+			  </tr>
+			  <tr>
+			    <td>~55kg</td><td>-</td><td>$450</td><td>$500</td>
+			  </tr>
+			</table>
+			<form action="#" method="post">
+				<section>
+					<h2>Meeting Appointment</h2>
+					<p>Please tell us about your loved one.</p>
+					<!-- kind of animal -->
+					<p>1. what kind of animel?</p>
+					<input type="radio" name="pet" value="dog">Dog<br>
+					<input type="radio" name="pet" value="cat">Cat<br>
+					<input type="radio" name="pet" value="bird">Bird<br>
+					<input type="radio" name="pet" value="hamster">Hamster<br>
+					<input type="radio" name="pet" value="fish">Fish<br>
+					<input type="radio" name="pet" value="reptiles">Reptiles<br>
+					<input type="radio" name="pet" value="other">Other<br>
+					<label for="other"></label><input id="other" type="text" name="other"><br>
+				</section>
+				<section>
+					<!-- weight -->
+					<p>2. Weight</p>
+					<input type="radio" name="weight" value="5">~5kg<br>
+					<input type="radio" name="weight" value="10">~10kg<br>
+					<input type="radio" name="weight" value="15">~15kg<br>
+					<input type="radio" name="weight" value="25">~25kg<br>
+					<input type="radio" name="weight" value="35">~35kg<br>
+					<input type="radio" name="weight" value="45">~45kg<br>
+					<input type="radio" name="weight" value="55">~55kg<br>
+				</section>
+				<section>
+					<!-- plan choice -->
+					<p>3. Plan</p>
+					<input type="radio" name="plan" value="group">group cremation<br>
+					<input type="radio" name="plan" value="simple">simple cremation<br>
+					<input type="radio" name="plan" value="presence">presence cremation<br>
+				</section>
+				<section>
+					<label for="petName">Pet's name</label><input id="petName" type="text" name="petName"><br>
+					<label for="yourName">Your name</label><input id="yourName" type="text" name="yourName"><br>
+					<label for="email">Email</label><input id="email" type="email" name="email"><br>
+					<label for="pnone">Phone Number</label><input id="phone" type="text" name="phone"><br>
+					<label for="message">Available time</label><textarea id="message" name="message"></textarea>
+				</section>
+				<section class="submit">
+					<input type="submit" value="submit">
+				</section>
+			</form>
+		</div>
+		<footer>
+			<div class="footerContainer">
+				<div class="footerMenu">
+					<a class="footerLink" href="index.html">Home</a><br>
+					<a class="footerLink" href="plans.html">Plans</a><br>
+					<a class="footerLink" href="contact.html">Contact</a>
+				</div>
+				<div class="footerContactInfo">
+					<p class="footerTell">0573-78-1102</p><br>
+					<p class="footerAddress">1983-31 Nasubigawa, Nakatsugawa, Gifu 509-9132</p><br>
+					<p class="footerHour">9:00am - 6pm</p>
+				</div>
+				<div class="outsideLinks">
+					<a href="http://www.nihonndoubutsusougireiennkyoukai.or.jp" target="blank"><img src="image/associationBanner.jpg" alt="banner of japan animal ceremony and sematary association."></a><br>
+					<p class="associationLink">We are a member of Japan Animal Ceremony and Sematary Association.</p>
+				</div>
+			</div>
+			
+			<a href="#header"><small>page top</small></a>
+			<h6>&copy; Aprier, All Rights Reserved</h6>
+		</footer>
+	</body>
+
+</html>
