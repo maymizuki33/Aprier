@@ -6,7 +6,7 @@ body{
 	margin: auto;
 	padding: 0px 0px 0px 0px;
 	font-size: 12px;
-	background-image: url(image/starImage.jpg);
+	/*background-image: url(image/starImage.jpg);*/
 	background-size: cover;
 }
 
@@ -220,7 +220,7 @@ table {
 }
 
 table th{
-	border: dotted 1px #DEB68E;
+	border: dotted 1px #999999;
 	text-align: center;
 	background-color: #8FC4D9;
 	color: #ffffff;
@@ -228,7 +228,7 @@ table th{
 }
 
 table td {
-	border: dotted 1px #DEB68E;
+	border: dotted 1px #999999;
 	text-align: center;
 	padding: 0.5em;
 }
